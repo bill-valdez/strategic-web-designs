@@ -1,0 +1,304 @@
+/* style.css 
+* Theme Name: Strategic Site that is currently being worked on
+* author: Willim Valdez
+* version :0.1;
+*/
+
+#main{
+		background-color: #ffffff;
+		width: 960px;
+		margin: 0 auto;
+		vertical-align: top;	
+	
+
+
+}
+/*container*/
+body{
+	background-color:#8C7B65;
+
+
+}
+.site-name{
+
+	background-color: #D9C7B8;
+	max-height:190px;
+	background-image: url(images/strat.png);
+    background-size: cover;  
+	padding-left: 90px; 	
+  	padding-top: 35px;
+  	margin-top: 0; 
+  	margin-bottom: 0;
+  	min-height: 175px;
+
+	
+
+}
+.site-name .site-titles{
+		padding-left: 48px;
+	
+
+}
+.site-name h1{
+	font-size: 36px;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.site-name a:hover{
+	color: #609415;
+}
+.site-name h2 {
+	padding-top: 5px;
+	margin: 0;
+}
+
+
+.post { 
+		font-family: Segoe UI, Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		background-color: #FFFFFF;	
+		list-style: none;
+		padding-left: 12px;
+		padding-top: 4px;
+		margin-top: 0;
+		margin-bottom:0;
+	
+}
+
+.post-header{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.menu {
+	margin-top:0px;
+	margin-bottom: 0;
+	min-height: 50px; 
+	background-color:#233133;
+}
+/*navbar*/
+.menu a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	padding-bottom: 10px;
+}
+.menu a:hover{
+color: #59FF00;
+	
+}
+
+.menu li {
+	
+	margin-top: 5px;
+	display: inline-block;
+	list-style-type: none;
+    margin-left:28px;
+    background-color:#425E61;
+    border-radius: 5px;
+ 	font-size: 18px;
+ 	text-align: center;
+ 	
+}
+.menu a:active{
+	background-color:#DEDACD;
+	color:#000000;
+	border-radius: 5px;
+} 
+li.current-menu-item {
+	background-color:#DEDACD;
+	border-radius: 5px;
+	
+}
+.current-menu-item a{
+	
+	color: #000000; 
+}
+
+
+
+.date{
+	float:left;
+	list-style: none;
+	background-color:#175CDD;
+	width: 40px;
+	height: 40px; 
+	padding-left: 12px;
+	padding-top: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	color:  #FFFFFF;
+
+}
+.site-titles a{
+
+	text-decoration: none;
+}
+.title {
+
+	font-style: ;
+	list-style: none;
+	margin-left: 30px;
+	vertical-align: top;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+ 
+}
+
+
+.author {
+		list-style: none;
+		margin-left: 80px;
+		margin-bottom: 5px;
+}
+
+.post-header {
+	background-color: #E0DCBE;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 0;
+	margin-right: 10px;
+
+
+}
+.post-header .title a{
+	text-decoration: none;
+
+}
+.post-header{
+	padding-left: 20px;
+	background-color: #ffffff; 
+
+}
+
+
+
+.searchform {
+	float: right;
+	padding-right: 20px;
+	padding-left: 5px;
+	display: inline-block;
+	background-color:#403938;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+
+}
+.ninja-forms-cont{
+	padding: 10px;
+	width: 60%;
+	background-color: #F2ECF2;
+	margin: 0 auto;
+
+}
+/*----------------portfolio page----------------*/
+
+.portfolio-piece
+
+{	clear: both;}
+
+.portfolio-piece .wp-post-image{
+
+margin-left: 100px;
+float: left;
+padding-left:40px;
+padding-right: 40px;
+padding-bottom: 20px;
+clear: both;
+}
+
+.portfolio-piece .website a{
+	color: #ffffff;
+	background-color: #493629;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	 border-radius: 25px;
+	 text-decoration: none;
+
+
+}
+ .post{
+	padding-left: 40px;
+	width: 60%;
+	float: left;
+	margin-right: 20px;
+}
+aside{
+	width: 30%;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+/*------------------widget-----------*/
+.secondary .widget{
+	width:25%;
+	float: left;
+	margin: 3%;
+	background-color:#E5E4CD;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+.secondary{
+	clear:both;
+}
+
+
+
+/*------------video------------------*/
+
+aside .widget {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+aside .widget  iframe, aside .widget  object, aside .widget  embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:90%;
+	height:100%;
+}
+/*--------------footer---------------*/
+.footer{
+	color: #ffffff;
+	background-color:#262420;
+	clear: both;
+}
+
+.footer .widget{
+	width:21%;
+	float: left;
+	margin: 2%;
+
+}
+.copyright{
+	clear:both;
+	padding-left: 20px;
+	padding-bottom: 10px;
+
+
+	}
+
+/* Text meant only for screen readers */
+.says,
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+}

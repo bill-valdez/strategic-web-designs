@@ -1,0 +1,5 @@
+[03-Mar-2015 05:15:41 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home2/bill/public_html/strategicwebdesigns.net/wp-includes/nav-menu-template.php on line 16
+[03-Mar-2015 05:15:43 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/bill/public_html/strategicwebdesigns.net/wp-includes/author-template.php on line 454
+[16-Oct-2015 21:11:33 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home2/bill/public_html/strategicwebdesigns.net/wp-includes/nav-menu-template.php on line 16
+[14-May-2016 17:48:18 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home2/bill/public_html/strategicwebdesigns.net/wp-includes/nav-menu-template.php on line 16
+[27-Jun-2016 13:22:04 America/Chicago] PHP Fatal error:  Class 'Walker' not found in /home2/bill/public_html/strategicwebdesigns.net/wp-includes/nav-menu-template.php on line 16

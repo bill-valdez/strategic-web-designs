@@ -1,0 +1,2 @@
+[13-Feb-2015 13:44:02 America/Chicago] PHP Warning:  require(/home2/bill/public_html/strategicwebdesigns.net/wp-includes/load.php): failed to open stream: No such file or directory in /home2/bill/public_html/strategicwebdesigns.net/wp-settings.php on line 21
+[13-Feb-2015 13:44:02 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home2/bill/public_html/strategicwebdesigns.net/wp-includes/load.php' (include_path='.:/opt/php54/lib/php') in /home2/bill/public_html/strategicwebdesigns.net/wp-settings.php on line 21
